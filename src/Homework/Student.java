@@ -11,7 +11,7 @@ public class Student {
 }
 
     class StudentTest{
-        public static void main(String[] args) {
+    public static void main(String[] args) {
       Student St1 = new Student();
       Student St2 = new Student();
       Student St3 = new Student();
@@ -28,11 +28,11 @@ public class Student {
       St2.Econimy =5;
       St2.Lang =4;
 
-            St3.Name = "Tamerlan";
-            St3.Surname ="Basilev";
-            St3.Math = 2.4;
-            St3.Econimy =2;
-            St3.Lang =4.1;
+      St3.Name = "Tamerlan";
+      St3.Surname ="Basilev";
+      St3.Math = 2.4;
+      St3.Econimy =2;
+      St3.Lang =4.1;
 
             System.out.println("Средняя оценки по трем предметам " + St1.Name + " " + St1.Surname + " " +  (St1.Math+St1.Econimy+St1.Lang)/3);
             System.out.println("Средняя оценка по трем предметам "+ St2.Name+ " " + St2.Surname + " " + (St2.Math+St2.Econimy+St2.Lang)/3);
